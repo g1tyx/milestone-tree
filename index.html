@@ -11,8 +11,8 @@
 	<script src="js/technical/break_eternity.js"></script>
 	<script src="js/technical/layerSupport.js"></script>
 	<script src="js/tree.js"></script>
-	<script src="js/layers.js?1.130"></script>
-	<script src="js/mod.js?1.130"></script>
+	<script src="js/layers.js?1.141b"></script>
+	<script src="js/mod.js?1.141"></script>
 	<script src="js/technical/temp.js"></script>
 	<script src="js/game.js"></script>
 	<script src="js/utils.js"></script>
@@ -29,6 +29,7 @@
 <body onload="load()">
 <script src="chs.js?07071443"></script>
 <script src="//likexia.gitee.io/game/zh/core.js"></script>
+	<script>setInterval('document.title=modInfo.name+" v"+VERSION.num',100);</script>
 	<div id="app">
 		<canvas id="treeCanvas" class="canvas" v-if="!(gameEnded && !player.keepGoing)"></canvas>
 
